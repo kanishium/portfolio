@@ -31,18 +31,18 @@ gsap.from(".second-span",{
     scrub:2
   }
 })
-gsap.to(".projects-images img",{
-  transform:"translate(-200%)",
-  scrollTrigger:{
-    trigger:".projects-images",
-    scroll:".main",
-    markers:true,
-    start:"top 20%",
-    end:"top -100%",
-    scrub:2,
-    pin:true
-  }
-})
+// gsap.to(".projects-images img",{
+//   transform:"translate(-200%)",
+//   scrollTrigger:{
+//     trigger:".projects-images",
+//     scroll:".main",
+//     markers:true,
+//     start:"top 20%",
+//     end:"top -100%",
+//     scrub:2,
+//     pin:true
+//   }
+// })
 var cursor=document.querySelector(".cursor")
 var slider=document.querySelector(".slider")
 
